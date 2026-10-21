@@ -11,7 +11,7 @@ html {
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background: #0d0d0d;
+    background: #0f0f0e;
     color: #0a0a0a;
 }
 
@@ -56,16 +56,13 @@ body {
     justify-content: space-between;
     gap: 60px;
 }
-.description-card{
-    background:#111111;
-    border:1px solid #222;
-    border-radius:16px;
-
-    padding:24px;
-
-    margin:30px 0;
-
-    box-shadow:0 8px 20px rgba(0,0,0,0.2);
+.description-card {
+    background: #111111;
+    border: 1px solid #222;
+    border-radius: 16px;
+    padding: 24px;
+    margin: 30px 0;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
 }
 
 
@@ -93,7 +90,7 @@ body {
     margin-bottom: 30px;
 }
 
-.skill-title{
+.skill-title {
     color: #f6f3f3;
     font-size: 16px;
     line-height: 1;
@@ -101,23 +98,20 @@ body {
     margin-bottom: 30px;
 }
 
-.hero-buttons{
+.hero-buttons {
     width: 100%;
     margin-top: 20px;
 }
 
 .primary-btn {
     display: inline-block;
+    background: #5b5555;
+    color: rgb(249, 249, 249);
     padding: 14px 24px;
     border-radius: 8px;
     text-decoration: none;
     font-size: 15px;
     transition: all 0.3s ease;
-}
-
-.primary-btn {
-    background: #5b5555;
-    color: rgb(249, 249, 249);
 }
 
 .primary-btn:hover {
@@ -141,7 +135,7 @@ body {
     font-size: 13px;
 }
 
-.hero-image{
+.hero-image {
     flex: 1;
     max-width: 430px;
     position: relative;
@@ -208,7 +202,6 @@ body {
         margin-right: auto;
     }
 
-    .hero-buttons,
     .skills {
         justify-content: center;
     }
@@ -220,22 +213,11 @@ body {
 }
 
 
-body{
-    font-family: Arial, sans-serif;
-    background:#f1f5f9;
-    margin:0;
-    padding:0;
-}
-
 h2 {
     color: #1e293b;
     margin-bottom: 8px;
 }
 
-.subtitle {
-    color: #64748b;
-    margin-bottom: 25px;
-}
 @keyframes fadeInUp {
   from {
     opacity: 0;
@@ -245,10 +227,6 @@ h2 {
     opacity: 1;
     transform: translateY(0);
   }
-}
-
-.hero-title {
-  animation: fadeInUp 0.8s ease-out forwards;
 }
 
 .hero-buttons {
@@ -332,9 +310,6 @@ h2 {
     font-size:28px;
     margin-bottom:15px;
 }
-body{
-    background:#0f0f0e;
-}
 /* SERVICES PAGE */
 
 .service-card{
@@ -347,14 +322,6 @@ body{
 
     margin-bottom:15px;
 
-    cursor:pointer;
-
-    transition:
-        transform 0.25s ease,
-        box-shadow 0.25s ease,
-        border-color 0.25s ease;
-
-    transform-origin:center;
 }
 
 .service-card h3{
@@ -375,8 +342,6 @@ body{
 .portfolio-content{
     width:100%;
     max-width:900px;
-
-    opacity:1;
 }
 
 .portfolio-content h1{
